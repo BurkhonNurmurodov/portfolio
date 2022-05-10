@@ -1,0 +1,37 @@
+@font-face {font-family: "ship";src: url("Fonts/Shippori/ShipporiAntique-Regular.ttf");}
+@font-face {font-family: "cour";src: url("Fonts/Courgette/Courgette-Regular.ttf");}
+@font-face {font-family: "work";src: url("Fonts/Work/static/WorkSans-ExtraBold.ttf");}
+.cour{font-family: "cour";}
+.ship{font-family: "ship";}
+.work{font-family: "work";}
+nav{top: 0;}
+.text-bold{font-weight: bold;}
+header{height: 100vh;}
+.h-10{height: 90px!important;}
+.h-90{height: 90%!important;}
+.bg-white{background-color: white;}
+header a{color: white;box-sizing: border-box;}
+.bg-dark1{background-color: rgb(0,0,0)!important;}
+.text-black{color: black!important;}
+.nav-item>a{transition: .5s!important;}
+.nav-item>a:hover{border-bottom: rgb(255, 255, 255) solid 2px!important;}
+.fs-5em{font-size: 4em!important;}
+.fs-2em{font-size: 3em!important;}
+.ms-70{margin-left: 70px!important;}
+@media screen and (max-width: 720px){.ab-text{font-size: 3em!important;}.abo-text{font-size: 30px!important;}.about-me ul{font-size: 14px;}}
+.progressbars h5{margin-top: 30px;}
+.about-card{box-sizing: border-box;}
+.sevices{height: 100vh;}
+section{background-color: rgba(0, 150, 250,.7);}
+.icons>i{color: white;font-weight: bold;font-size: 5em;}
+.color-white{color: white!important;}
+.portfolio>h1{font-size: 3em;}
+.portfolio>p{font-size: 2em;}
+footer{background-color: rgba(0, 150, 250,.7);}
+footer .col-lg-6{box-sizing: border-box;}
+footer .container{box-sizing: border-box;}
+footer .row{box-sizing: border-box;}
+.h-250{height: 150px;}
+.image{overflow: hidden;}
+.portfolio img{transition: .5s;}
+.portfolio img:hover{transform: scale(1.1);}
